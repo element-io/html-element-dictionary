@@ -23,8 +23,9 @@
     "url": "git://github.com/element-io/html-element-dictionary.git"
   },
   "keywords": [
-    "svg",
+    "html",
     "tags",
+    "elements",
     "w3c"
   ],
   "bugs": {
