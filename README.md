@@ -4,7 +4,7 @@ HTML Element Dictionary
 
 > Dictionary of HTML elements.
 
-List built from the HTML language markup [reference](http://www.w3.org/TR/html-markup/).
+Dictionary built from the HTML language markup [reference](http://www.w3.org/TR/html-markup/).
 
 
 ## Notes
