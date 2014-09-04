@@ -1,0 +1,988 @@
+{
+	"a": {
+		"desc": "The `a` element represents a hyperlink.",
+		"url": "http://www.w3.org/TR/html-markup/a.html#a",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"href",
+			"target",
+			"rel",
+			"hreflang",
+			"media",
+			"type"
+		]
+	},
+	"abbr": {
+		"desc": "The `abbr` element represents an abbreviation or acronym.",
+		"url": "http://www.w3.org/TR/html-markup/abbr.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"address": {
+		"desc": "The `address` element represents contact information.",
+		"url": "http://www.w3.org/TR/html-markup/address.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"area": {
+		"desc": "The `area` element represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.",
+		"url": "http://www.w3.org/TR/html-markup/area.html",
+		"type": "void",
+		"attributes": [
+			"global",
+			"alt",
+			"href",
+			"target",
+			"rel",
+			"media",
+			"hreflang",
+			"shape",
+			"coords"
+		]
+	},
+	"article": {
+		"desc": "The `article` element represents a section of content that forms an independent part of a document or site; for example, a magazine or newspaper article, or a blog entry.",
+		"url": "http://www.w3.org/TR/html-markup/article.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"aside": {
+		"desc": "The `aside` element represents content that is tangentially related to the content that forms the main textual flow of a document.",
+		"url": "http://www.w3.org/TR/html-markup/aside.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"audio": {
+		"desc": "An `audio` element represents an audio stream.",
+		"url": "http://www.w3.org/TR/html-markup/audio.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"autoplay",
+			"preload",
+			"controls",
+			"loop",
+			"mediagroup",
+			"muted",
+			"src"
+		]
+	},
+	"b": {
+		"desc": "The `b` element represents a span of text offset from its surrounding content without conveying any extra emphasis or importance, and for which the conventional typographic presentation is bold text; for example, keywords in a document abstract, or product names in a review.",
+		"url": "http://www.w3.org/TR/html-markup/b.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"base": {
+		"desc": "The `base` element specifies a document-wide base URL for the purposes of resolving relative URLs, and a document-wide default browsing context name for the purposes of following hyperlinks.",
+		"url": "http://www.w3.org/TR/html-markup/base.html",
+		"type": "void",
+		"attributes": [
+			"global",
+			"href",
+			"target"
+		]
+	},
+	"bdi": {
+		"desc": "The `bdi` element represents a span of text that is isolated from its surroundings for the purposes of bidirectional text formatting.",
+		"url": "http://www.w3.org/TR/html-markup/bdi.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"bdo": {
+		"desc": "The `bdo` element represents an explicit text directionality formatting control for its children; it provides a means to specify a direction override of the Unicode BiDi algorithm.",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"blockquote": {
+		"desc": "The `blockquote` element represents a section that is quoted from another source.",
+		"url": "http://www.w3.org/TR/html-markup/blockquote.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"cite"
+		]
+	},
+	"body": {
+		"desc": "The `body` element represents the body of a document (as opposed to the document’s metadata).",
+		"url": "http://www.w3.org/TR/html-markup/body.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"onafterprint",
+			"onbeforeprint",
+			"onbeforeunload",
+			"onblur",
+			"onerror",
+			"onfocus",
+			"onhashchange",
+			"onload",
+			"onmessage",
+			"onoffline",
+			"onpagehide",
+			"onepageshow",
+			"onpopstate",
+			"onresize",
+			"onstorage",
+			"onunload"
+		]
+	},
+	"br": {
+		"desc": "The `br` element represents a line break.",
+		"url": "http://www.w3.org/TR/html-markup/br.html",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"button": {
+		"desc": "The `button` element is a multipurpose element for representing buttons.",
+		"url": "http://www.w3.org/TR/html-markup/button.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"name",
+			"disabled",
+			"form",
+			"type",
+			"value",
+			"formaction",
+			"autofocus",
+			"formenctype",
+			"formmethod",
+			"formtarget",
+			"formnovalidate"
+		]
+	},
+	"canvas": {
+		"desc": "The `canvas` element represents a resolution-dependent bitmap canvas, which can be used for dynamically rendering of images such as game graphics, graphs, or other images.",
+		"url": "http://www.w3.org/TR/html-markup/canvas.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"height",
+			"width"
+		]
+	},
+	"caption": {
+		"desc": "The `caption` element represents the title of the table that is its parent.",
+		"url": "http://www.w3.org/TR/html-markup/caption.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"cite": {
+		"desc": "The `cite` element represents the cited title of a work; for example, the title of a book mentioned within the main text flow of a document.",
+		"url": "http://www.w3.org/TR/html-markup/cite.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"code": {
+		"desc": "The `code` element represents a fragment of computer code.",
+		"url": "http://www.w3.org/TR/html-markup/code.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"col": {
+		"desc": "The `col` element represents one or more columns in the column group represented by its colgroup parent.",
+		"url": "http://www.w3.org/TR/html-markup/col.html",
+		"type": "void",
+		"attributes": [
+			"global",
+			"span"
+		]
+	},
+	"colgroup": {
+		"desc": "The `colgroup` element represents a group of one or more columns in the table that is its parent.",
+		"url": "http://www.w3.org/TR/html-markup/colgroup.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"span"
+		]
+	},
+	"command": {
+		"desc": "The `command` element is a multipurpose element for representing commands.",
+		"url": "http://www.w3.org/TR/html-markup/command.html",
+		"type": "void",
+		"attributes": [
+			"global",
+			"type",
+			"label",
+			"icon",
+			"disabled",
+			"radiogroup",
+			"checked"
+		]
+	},
+	"data": {
+		"desc": "",
+		"url": "",
+		"type": "normal"
+	},
+	"datalist": {
+		"desc": "The `datalist` element represents a set of option elements that represent predefined options for other controls.",
+		"url": "http://www.w3.org/TR/html-markup/datalist.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"dd": {
+		"desc": "The `dd` element represents a description or value.",
+		"url": "http://www.w3.org/TR/html-markup/dd.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"del": {
+		"desc": "The `del` element represents a range of text that has been deleted from a document.",
+		"url": "http://www.w3.org/TR/html-markup/del.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"cite",
+			"datetime"
+		]
+	},
+	"details": {
+		"desc": "The `details` element represents a control from which the user can obtain additional information or controls on-demand.",
+		"url": "http://www.w3.org/TR/html-markup/details.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"open"
+		]
+	},
+	"dfn": {
+		"desc": "The `dfn` element represents the defining instance of a term.",
+		"url": "http://www.w3.org/TR/html-markup/dfn.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"dialog": {
+		"desc": "",
+		"url": "",
+		"type": "normal"
+	},
+	"div": {
+		"desc": "The `div` element is a generic container for flow content that by itself does not represent anything.",
+		"url": "http://www.w3.org/TR/html-markup/div.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"dl": {
+		"desc": "The `dl` element represents a description list.",
+		"url": "http://www.w3.org/TR/html-markup/dl.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"dt": {
+		"desc": "The `dt` element represents a term or name.",
+		"url": "http://www.w3.org/TR/html-markup/dt.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"em": {
+		"desc": "The `em` element represents a span of text with emphatic stress.",
+		"url": "http://www.w3.org/TR/html-markup/em.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"embed": {
+		"desc": "The `embed` element represents an integration point for external content.",
+		"url": "http://www.w3.org/TR/html-markup/embed.html",
+		"type": "void",
+		"attributes": [
+			"global",
+			"src",
+			"type",
+			"height",
+			"width",
+			"*"
+		]
+	},
+	"fieldset": {
+		"desc": "The `fieldset` element represents a set of form controls grouped under a common name.",
+		"url": "http://www.w3.org/TR/html-markup/fieldset.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"name",
+			"disabled",
+			"form"
+		]
+	},
+	"figcaption": {
+		"desc": "The `figcaption` element represents a caption or legend for a figure.",
+		"url": "http://www.w3.org/TR/html-markup/figcaption.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"figure": {
+		"desc": "The `figure` element represents a unit of content, optionally with a caption, that is self-contained, that is typically referenced as a single unit from the main flow of the document, and that can be moved away from the main flow of the document without affecting the document’s meaning.",
+		"url": "http://www.w3.org/TR/html-markup/figure.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"footer": {
+		"desc": "The `footer` element represents the footer for the section it applies to.",
+		"url": "http://www.w3.org/TR/html-markup/footer.html",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"form": {
+		"desc": "The `form` element represents a user-submittable form.",
+		"url": "http://www.w3.org/TR/html-markup/form.html",
+		"type": "normal",
+		"attributes": [
+			"global",
+			"action",
+			"method",
+			"enctype",
+			"name",
+			"accept-charset",
+			"novalidate",
+			"target",
+			"autocomplete"
+		]
+	},
+	"h1": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"h2": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"h3": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"h4": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"h5": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"h6": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"head": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"header": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"hr": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"html": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"i": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"iframe": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"img": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"input": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"ins": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"kbd": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"keygen": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"label": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"legend": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"li": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"link": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"main": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"map": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"mark": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"menu": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"menuitem": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"meta": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"meter": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"nav": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"noscript": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"object": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"ol": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"optgroup": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"option": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"output": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"p": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"param": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"picture": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"pre": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"progress": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"q": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"rb": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"rp": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"rt": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"ruby": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"s": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"samp": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"script": {
+		"desc": "",
+		"url": "",
+		"type": "raw_text",
+		"attributes": [
+			"global"
+		]
+	},
+	"section": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"select": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"small": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"source": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"span": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"strong": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"style": {
+		"desc": "",
+		"url": "",
+		"type": "raw_text",
+		"attributes": [
+			"global"
+		]
+	},
+	"sub": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"summary": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"sup": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"table": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"tbody": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"td": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"template": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"textarea": {
+		"desc": "",
+		"url": "",
+		"type": "escapable_raw_text",
+		"attributes": [
+			"global"
+		]
+	},
+	"tfoot": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"th": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"thead": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"time": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"title": {
+		"desc": "",
+		"url": "",
+		"type": "escapable_raw_text",
+		"attributes": [
+			"global"
+		]
+	},
+	"tr": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"track": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	},
+	"u": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"ul": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"var": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"video": {
+		"desc": "",
+		"url": "",
+		"type": "normal",
+		"attributes": [
+			"global"
+		]
+	},
+	"wbr": {
+		"desc": "",
+		"url": "",
+		"type": "void",
+		"attributes": [
+			"global"
+		]
+	}
+}
